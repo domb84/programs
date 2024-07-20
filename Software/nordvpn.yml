@@ -1,0 +1,23 @@
+Name: NordVPN
+Description: NordVPN client for Windows.
+Grade: Silver
+Arch: win32
+
+Dependencies:
+- dotnet48
+
+
+Executable:
+  name: NordVPN
+  icon: nordvpn.png
+  file: NordVPN.exe
+  path: Program Files\NordVPN\NordVPN.exe
+  arguments: ""
+
+Steps:
+- action: install_exe
+  file_name: NordVPNSetup.exe
+  url: https://downloads.nordcdn.com/apps/windows/NordVPN/latest/NordVPNSetup.exe
+  rename: NordVPNSetup.exe
+  file_checksum: False 
+  arguments: "/VERYSILENT /NORESTART"

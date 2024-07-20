@@ -207,3 +207,11 @@ mega:
   Grade: Silver
   Category: Software
   Icon: mega.png
+
+nordvpn:
+  Arch: win64
+  Name: 'NordVPN'
+  Description: 'NordVPN client for Windows'
+  Grade: Silver
+  Category: Software
+  Icon: nordvpn.png
